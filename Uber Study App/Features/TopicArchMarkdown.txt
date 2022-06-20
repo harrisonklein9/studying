@@ -1,0 +1,11 @@
+### The Old Way of Doing Things
+Prior to our architecture overhaul, we would render the home screen by calling on two services:
+* *Get List Topics* service:
+    * This request returns a list of topic id's that can then be used to call *"Get Topic"
+* *Get Recommended Restaurants* service
+    * This request returns a list of restaurant items
+
+These services are owned by two different teams, **Recommendations**, and **Topics**.
+
+Below is a diagram of these requests, and their responses. The responses are abbreviated to highlight the fields that are important for this example.
+
