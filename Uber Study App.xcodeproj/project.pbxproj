@@ -43,7 +43,7 @@
 		2BD6D8E428601B9E00E851B7 /* MarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = 2BD6D8E328601B9E00E851B7 /* MarkdownView */; };
 		2BD6D8E628601C1500E851B7 /* DocumentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD6D8E528601C1500E851B7 /* DocumentationViewController.swift */; };
 		2BD6D8EC28604DBD00E851B7 /* TopicArchMarkdown.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BD6D8EB28604DBD00E851B7 /* TopicArchMarkdown.txt */; };
-		2BD6D8EE2860DA5600E851B7 /* oldTopicArch.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD6D8ED2860DA5600E851B7 /* oldTopicArch.png */; };
+		2BD6D8F02860F4E700E851B7 /* newTopicArch.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD6D8EF2860F4E700E851B7 /* newTopicArch.png */; };
 		2BE223FA285EC20700095B6F /* ImageViewCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE223F9285EC20600095B6F /* ImageViewCollectionViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,7 +85,7 @@
 		2B37CA1E285EBE6B000A9389 /* ImageViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		2BD6D8E528601C1500E851B7 /* DocumentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationViewController.swift; sourceTree = "<group>"; };
 		2BD6D8EB28604DBD00E851B7 /* TopicArchMarkdown.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TopicArchMarkdown.txt; path = "Uber Study App/Features/TopicArchMarkdown.txt"; sourceTree = SOURCE_ROOT; };
-		2BD6D8ED2860DA5600E851B7 /* oldTopicArch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oldTopicArch.png; sourceTree = "<group>"; };
+		2BD6D8EF2860F4E700E851B7 /* newTopicArch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newTopicArch.png; sourceTree = "<group>"; };
 		2BE223F9285EC20600095B6F /* ImageViewCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,8 +111,8 @@
 				2B37846E28600638002A27BF /* CarouselCollectionViewDelegateFlowLayout.swift */,
 				2B0865DC285FF161008583B3 /* CarouselItem */,
 				2B0865D4285FE0A1008583B3 /* JSON Data */,
-				2B0865EF286003DD008583B3 /* Protocols */,
 				2B0865BA285FA2E6008583B3 /* ListItem */,
+				2B0865EF286003DD008583B3 /* Protocols */,
 				2B0865D1285FDF5E008583B3 /* Models */,
 			);
 			path = "New Topic Arch";
@@ -141,6 +141,7 @@
 		2B0865D4285FE0A1008583B3 /* JSON Data */ = {
 			isa = PBXGroup;
 			children = (
+				2BD6D8EF2860F4E700E851B7 /* newTopicArch.png */,
 				2B0865DA285FE7C3008583B3 /* NewTopicArchDataSource.swift */,
 				2B0865D5285FE0B8008583B3 /* Topics.json */,
 			);
@@ -208,7 +209,6 @@
 				2B37CA1C285EBE4D000A9389 /* Image Loader */,
 				2B0865A7285F9488008583B3 /* New Topic Arch */,
 				2BD6D8EB28604DBD00E851B7 /* TopicArchMarkdown.txt */,
-				2BD6D8ED2860DA5600E851B7 /* oldTopicArch.png */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -299,7 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1C0CA7285E9E4E003C699D /* LaunchScreen.storyboard in Resources */,
-				2BD6D8EE2860DA5600E851B7 /* oldTopicArch.png in Resources */,
 				2B37CA20285EBE6B000A9389 /* ImageViewCollectionViewCell.xib in Resources */,
 				2B0865E4285FF1A5008583B3 /* CarouselItemCollectionViewCell.xib in Resources */,
 				2BD6D8EC28604DBD00E851B7 /* TopicArchMarkdown.txt in Resources */,
@@ -307,6 +306,7 @@
 				2B1C0CA4285E9E4E003C699D /* Assets.xcassets in Resources */,
 				2B1C0CA2285E9E4B003C699D /* Main.storyboard in Resources */,
 				2B0865D6285FE0B8008583B3 /* Topics.json in Resources */,
+				2BD6D8F02860F4E700E851B7 /* newTopicArch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
