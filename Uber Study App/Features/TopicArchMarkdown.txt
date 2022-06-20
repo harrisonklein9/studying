@@ -33,6 +33,8 @@ With the old implementation, we are faced with 2 large product related issues, a
 ### The Solution
 Our goal in devising a solution was to develop a product that was generic enough that the UI could be fully driven by the backend and only require client changes that included the adding of new types of UI elements (for example, Ad Banners).  Additionally, we wanted the client to not have to implement any logic in regards to failing or high latency requests, other than to just show an error if a request failed. Aside from all of this, we had a main product goal to support "interweaving" topics with restaurant items.
 
-(NEW TOPIC ARCH)
+![New Topic Arch](https://github.com/harrisonklein9/studying/blob/master/Uber%20Study%20App/Features/New%20Topic%20Arch/JSON%20Data/newTopicArch.png?raw=true)
+
+We created an endpoint `getTopicItems` that would return to us a list of topic items. Each topic item
 
 

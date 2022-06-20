@@ -23,15 +23,9 @@ class DocumentationViewController: EditableViewController {
         else {
             return nil
         }
-        let newString = string.replacingOccurrences(of: "(NEW TOPIC ARCH)", with: "![New Topic Arch](\(newArchImageUrl))")
-        
-        return newString
+        return string
     }()
     
-    private lazy var newArchImageUrl: String = {
-        guard let path = Bundle.main.url(forResource: "newTopicArch", withExtension: "png") else { return "" }
-        return path.absoluteString
-    }()
 
     override func viewDidLoad() {
         view.addSubview(markdownView)
